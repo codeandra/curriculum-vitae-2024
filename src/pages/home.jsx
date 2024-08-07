@@ -53,7 +53,7 @@ const HomePage = () => {
                   activePage === name
                     ? "text-slate-400"
                     : "text-white hover:text-slate-400"
-                } text-base font-bold py-2 w-full text-center uppercase duration-300 ease-in-out`}
+                } cursor-pointer text-base font-bold py-2 w-full text-center uppercase duration-300 ease-in-out`}
               >
                 {name}
               </div>

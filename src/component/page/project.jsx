@@ -19,7 +19,7 @@ const Project = () => {
     <div className="min-h-screen bg-slate-100 px-8 pt-20 flex flex-col justify-center items-center">
       <div className="w-full">
         <h1
-          className="sm:text-4xl text-2xl font-bold uppercase mb-8"
+          className="sm:text-4xl text-2xl font-bold uppercase mb-4"
           data-aos="fade-right"
           data-aos-duration="800"
           data-aos-easing="ease-in-out"

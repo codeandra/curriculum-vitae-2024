@@ -46,7 +46,7 @@ const HomePage = () => {
           />
           <div className="flex flex-col items-center w-full mt-8">
             {optionNavbar.map(({ name }) => (
-              <Link
+              <div
                 key={name}
                 onClick={() => handleNavigation(name)}
                 className={`${
@@ -56,7 +56,7 @@ const HomePage = () => {
                 } text-base font-bold py-2 w-full text-center uppercase duration-300 ease-in-out`}
               >
                 {name}
-              </Link>
+              </div>
             ))}
           </div>
           <div className="flex gap-x-3 mt-12">

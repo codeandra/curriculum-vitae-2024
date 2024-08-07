@@ -15,7 +15,7 @@ const Education = () => {
   }, []);
 
   return (
-    <div className="h-screen p-14 bg-slate-100 flex flex-col items-start justify-center">
+    <div className="h-screen px-8 bg-slate-100 flex flex-col items-start justify-center">
       <div className="w-full">
         <h1 className="sm:text-4xl text-2xl font-bold uppercase mb-8"
           data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">

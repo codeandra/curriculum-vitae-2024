@@ -15,7 +15,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="min-h-screen  px-8 bg-slate-100 flex flex-col items-start justify-center">
+    <div className="min-h-screen px-8 bg-slate-100 flex flex-col items-start justify-center">
       <div className="w-full">
         <h1
           className="text-2xl sm:text-4xl font-bold uppercase"
@@ -107,7 +107,7 @@ const AboutMe = () => {
         >
           My <span className="text-sky-600">Hobbies</span>
         </h1>
-        <div className="overflow-x-scroll scrollbar scrollbar-none mt-5 font-medium gap-x-6 flex w-full">
+        <div className="overflow-x-scroll scrollbar scrollbar-none lg:overflow-hidden mt-5 font-medium gap-x-2 sm:gap-x-6 flex">
           {litsHobbies.map((hobby) => (
             <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay={hobby.id * 250}>
               <Card icon={hobby.icon} text={hobby.text} />

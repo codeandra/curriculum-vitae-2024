@@ -17,7 +17,7 @@ const Skills = () => {
   });
 
   return (
-    <div className="min-h-screen px-14 bg-slate-100 flex flex-col items-start justify-center">
+    <div className="min-h-screen px-8 bg-slate-100 flex flex-col items-start justify-center">
       <div className="w-full">
         <h1
           className="sm:text-4xl text-2xl font-bold uppercase"

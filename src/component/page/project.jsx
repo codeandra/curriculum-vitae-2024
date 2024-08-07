@@ -16,7 +16,7 @@ const Project = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-100 px-14 pt-20 flex flex-col justify-center items-center">
+    <div className="min-h-screen bg-slate-100 px-8 pt-20 flex flex-col justify-center items-center">
       <div className="w-full">
         <h1
           className="sm:text-4xl text-2xl font-bold uppercase mb-8"

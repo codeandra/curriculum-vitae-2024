@@ -6,7 +6,7 @@ const Default = ({ handleNavigation }) => {
   return (
     <div className="min-h-screen bg-slate-100 p-6 flex items-center justify-center flex-col">
       <h1
-        className="text-3xl md:text-4xl font-semibold"
+        className="text-3xl md:text-4xl font-bold"
         data-aos="fade-right"
         data-aos-duration="800"
         data-aos-easing="ease-in-out"
@@ -14,7 +14,7 @@ const Default = ({ handleNavigation }) => {
         Hello Everyone👋
       </h1>
       <p
-        className="text-xl mt-1"
+        className="text-xl mt-1 font-medium"
         data-aos="fade-left"
         data-aos-duration="900"
         data-aos-easing="ease-in-out"

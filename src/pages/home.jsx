@@ -36,7 +36,7 @@ const HomePage = () => {
       <div
         className={`${
           openSidebar ? "translate-x-0" : "-translate-x-full"
-        } z-10 min-h-screen bg-slate-800 fixed w-[300px] sm:translate-x-0 flex flex-col items-center justify-center duration-500 ease-in-out`}
+        } z-30 min-h-screen bg-slate-800 fixed w-[300px] sm:translate-x-0 flex flex-col items-center justify-center duration-500 ease-in-out`}
       >
         <div className="flex flex-col items-center w-full">
           <img
@@ -75,21 +75,23 @@ const HomePage = () => {
       </div>
 
       <div className="sm:hidden">
-        <div className="fixed top-0 left-0 p-4 z-50 bg-slate-800 w-full">
+        <div className="fixed top-0 left-0 p-4 bg-slate-800 w-full z-40">
           <div className="flex">
             <button onClick={toggleSidebar}>
               <FontAwesomeIcon
                 icon={openSidebar ? faTimes : faBars}
-                className={`text-white text-xl`}
+                className="text-white text-xl"
               />
             </button>
             <p className="text-white font-semibold ms-3">Kevin Andra</p>
           </div>
         </div>
-        <div
-          className={`${openSidebar ? "opacity-100" : "opacity-0"} sm:hidden fixed top-0 left-0 w-full h-screen bg-black bg-opacity-40 duration-500 ease-in-out`}
-          onClick={toggleSidebar}
-        />
+          <div
+            className={`fixed top-0 left-0 w-full h-screen bg-black bg-opacity-40 duration-500 ease-in-out ${
+              openSidebar ? "opacity-100 pointer-events-auto z-20" : "opacity-0 pointer-events-none"
+            }`}
+            onClick={toggleSidebar}
+          />
       </div>
 
       <div className="transition-all duration-300 sm:ml-[300px]">

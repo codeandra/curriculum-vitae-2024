@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import profileImg from "/img/pp.jpeg";
+import profileImg from "/img/pp.jpg";
 import { optionNavbar } from "../data/optionNavbar";
 import { Link } from "react-router-dom";
 import AboutMe from "../component/page/aboutMe";
